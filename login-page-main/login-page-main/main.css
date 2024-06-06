@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #21453C;
+  color: #ffffff;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  max-width: 1200px;
+}
+
+.intro {
+  width: 440px;
+  height: 294px;
+  margin-top: 100px;
+  left: 190px;
+}
+
+.intro h1 {
+  font-size: 36px;
+  display: flex;
+  align-items: center;
+}
+
+.intro h1 img {
+  margin-right: 10px;
+}
+
+.intro h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.intro p {
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+.intro a {
+  color: #235E4A;
+  text-decoration: none;
+}
+
+.intro a:hover {
+  text-decoration: underline;
+}
+
+.login-container {
+  background-color: #235E4A;
+  padding: 40px;
+  border-radius: 8px;
+  width: 380px;
+  height: 536px;
+  top: 187px;
+  left: 760px;
+  gap: 18px;
+  text-align: left;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#img1 {
+  width: 347.81px;
+  height: 42px;
+  top: 60px;
+  left: 46px;
+}
+
+.earth-logo {
+  width: 100px;
+  margin-bottom: 20px;
+}
+
+.login-container h1 {
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+
+.login-container p {
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+.login-container form {
+  margin-bottom: 20px;
+}
+
+.login-container label {
+  display: block;
+  text-align: left;
+  margin-bottom: 20px;
+  font-size: 14px;
+}
+
+.login-container input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 30px;
+  border: none;
+  border-radius: 5px;
+}
+
+.continue-btn {
+  width: 100%;
+  padding: 10px;
+  background-color: #28A745;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  border-color: white;
+}
+
+.continue-btn:hover {
+  background-color: #2E9844;
+}
+
+.social-login {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 40px;
+  border-color: white;
+}
+
+.social-login button {
+  background-color: #235E4A;
+  color: white;
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  border-color: white;
+  justify-content: left;
+}
+
+.social-login button img {
+  margin-right: 10px;
+}
+#img2{
+  width: 16.23px;
+  height: 23.98px;
+  border-radius: 4.5px;
+}
+
+.login-container a {
+  color: #2E9844;
+  text-decoration: none;
+  text-align: center;
+}
+
+.login-container a:hover {
+  text-decoration: underline;
+}
